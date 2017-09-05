@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/menu_home"
+        android:icon="@mipmap/ic_home_black_24dp"
+        android:title="Home" />
+    <item android:id="@+id/menu_personal"
+        android:icon="@mipmap/ic_info_black_24dp"
+        android:title="Personal Info" />
+    <item android:id="@+id/menu_Photo"
+        android:icon="@mipmap/ic_photo_camera_black_24dp"
+        android:title="Take Photo" />
+    <item android:id="@+id/menu_upload"
+        android:icon="@mipmap/ic_file_upload_black_24dp"
+        android:title="Upload Resume" />
+    <item android:id="@+id/menu_view"
+        android:icon="@mipmap/ic_picture_as_pdf_black_24dp"
+        android:title="View Resume" />
+    </group>
+</menu>
